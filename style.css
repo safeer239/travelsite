@@ -1,0 +1,326 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+.nav-btn{
+    padding: .4rem .6rem;
+    border: 0;
+    background:var(--primary-color);
+    color: var(--extra-light);
+    margin-top: -2px;
+    font-size: .9rem;
+}
+.nav-btn:hover{
+    background-color:var(--primary-color-dark);
+
+}
+img{
+    width: 100%;
+    height: auto;
+}
+.card-title{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 300px;
+    
+    
+}
+.emp{
+    color: white;
+}
+h2{
+    align-items: center;
+}
+.d1{
+    font-family: 'Caprasimo', cursive;
+font-family: 'Dancing Script', cursive;
+background-color: darkmagenta;
+
+}
+.to{
+
+    margin-left: 100px;
+}
+.next{
+    margin-left: 150px;
+}
+.where{
+    color: white;
+}
+.wrapImg {
+    width: 80%;
+    margin-left: 10%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.content {
+    font-size: 27px;
+    color: white;
+    margin-bottom: 20px;
+}
+.heading{
+    text-align: center;
+
+}
+.img1 {
+    width: 49.5%;
+    height: 450px;
+    margin: 2px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    padding: 0 20px;
+}
+
+.img1::before {
+    content: '';
+    z-index: -1;
+    position: absolute;
+    width: 49.5%;
+    height: 450px;
+    filter: brightness(0.70);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("https://res.klook.com/image/upload/Mobile/City/swox6wjsl5ndvkv5jvum.jpg");
+}
+
+.content {
+    font-size: 27px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.img2 {
+    width: 49.5%;
+    height: 450px;
+    margin: 2px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    padding: 0 20px;
+
+}
+
+.img2::before {
+    content: '';
+    z-index: -1;
+    position: absolute;
+    width: 49.5%;
+    height: 450px;
+    background-size: cover;
+    opacity: 1;
+    filter: brightness(0.70);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("https://static.independent.co.uk/2023/06/06/16/iStock-1154385175.jpg");
+}
+
+.img3 {
+    width: 32.9%;
+    height: 450px;
+    margin: 2px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    padding: 0 20px;
+
+}
+
+
+.img3::before {
+    content: '';
+    z-index: -1;
+    position: absolute;
+    width: 32.9%;
+    height: 450px;
+    background-size: cover;
+    opacity: 1;
+    filter: brightness(0.70);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("https://foodandtravel.com/imager/hours/219609/Ministry-of-Tourism-Govt-of-India-595161_Taj-Mahal-Uttar-Pradesh-Aerial_821631bb23140209ea99c8f810f75634.jpg")
+}
+
+.img4 {
+    width: 32.9%;
+    height: 450px;
+    margin: 2px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    padding: 0 20px;
+
+}
+
+.img4::before {
+    content: '';
+    z-index: -1;
+    position: absolute;
+    width: 32.9%;
+    height: 450px;
+    background-size: cover;
+    opacity: 1;
+    filter: brightness(0.70);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("https://assets.vogue.in/photos/5ce431b346cf5953f8b18c74/1:1/w_1080,h_1080,c_limit/featured.2.jpg")
+}
+
+.img5 {
+    width: 32.9%;
+    height: 450px;
+    margin: 2px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    padding: 0 20px;
+
+}
+
+.img5::before {
+    content: '';
+    z-index: -1;
+    position: absolute;
+    width: 32.9%;
+    height: 450px;
+    background-size: cover;
+    filter: brightness(0.70);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("https://cdn.britannica.com/20/20120-050-89764C76/Tiananmen-entryway-Imperial-City-China-Beijing.jpg")
+}
+.exp{
+    width: 80%;
+    margin-left: 10%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.image1{
+    width: 30%;
+    height: 600px;
+}
+.image1::before{
+    content: '';
+    z-index: -1;
+    position: absolute;
+    width: 30%;
+    height: 450px;
+    background-size: cover;
+    filter: brightness(0.70);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("https://wallpaperaccess.com/full/99268.jpg")
+}
+.image2{
+    width: 30%;
+    height: 600px;
+}
+.image2::before{
+    content: '';
+    z-index: -1;
+    position: absolute;
+    width: 30%;
+    height: 450px;
+    background-size: cover;
+    filter: brightness(0.70);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("https://w0.peakpx.com/wallpaper/1022/975/HD-wallpaper-kerala-nature.jpg")
+}
+.image3{
+    width: 30%;
+    height: 600px;
+}
+.image3::before{
+    content: '';
+    z-index: -1;
+    position: absolute;
+    width: 30%;
+    height: 450px;
+    background-size: cover;
+    filter: brightness(0.70);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("https://e1.pxfuel.com/desktop-wallpaper/668/494/desktop-wallpaper-turkey-masjid-islamic-islamic-mosque-architecture-iphone-thumbnail.jpg")
+}
+.image4{
+    width: 30%;
+    height: 600px;
+
+}
+.image4::before{
+    content: '';
+    z-index: -1;
+    position: absolute;
+    width: 30%;
+    height: 450px;
+    background-size: cover;
+    filter: brightness(0.70);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("https://wallpaperaccess.com/full/713278.jpg")
+    
+}
+.image5{
+    width: 30%;
+    height: 600px;
+}
+.image5::before{
+    content: '';
+    z-index: -1;
+    position: absolute;
+    width: 30%;
+    height: 450px;
+    background-size: cover;
+    filter: brightness(0.70);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("https://e0.pxfuel.com/wallpapers/224/356/desktop-wallpaper-barcelona-es-barcelona-city-spain-travel-barcelona-spain.jpg")
+}
+.image6{
+    width: 30%;
+    height: 600px;
+}
+.image6::before{
+    content: '';
+    z-index: -1;
+    position: absolute;
+    width: 30%;
+    height: 450px;
+    background-size: cover;
+    filter: brightness(0.70);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("https://assets.cntraveller.in/photos/64870e393de70554923b9242/master/w_1600%2Cc_limit/turin-GettyImages-1407322754.jpeg")
+}
+.name{
+    font-size: 30px;
+    color: white;
+    margin-top: 380px;
+    text-decoration: underline;
+    text-align: center;
+}
+.pic{
+    display: flex;
+}
+p{
+    text-align: justify;
+    margin: 40px;
+}
+.pic img{
+    width: 300px;
+    height: auto;
+    margin-left: 51px;
+}
+.one{
+    font-size: 60px;
+    color: darkmagenta;
+}

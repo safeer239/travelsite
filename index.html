@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel blog</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="http://www.oneikathetraveller.com/wp-content/uploads/2022/01/Oneika-Black-1440x439.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caprasimo&family=Dancing+Script&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- nav bar -->
+    <nav class="navbar  navbar-expand-lg bg-body-tertiary  sticky-top">
+      <div class="container-fluid mx-3">
+          <a class="navbar-brand" href="#">
+              <img src="data:image/png;base64,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" alt=""  height="40" class="d-inline-block align-text-top">
+              
+            </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav  ms-auto ">
+            <li class="nav-item">
+              <a class="nav-link active " aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " href="#destinations">Destinations</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="#latest">Latest Trips</a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link " href="#about">About</a>
+              </li>
+              <li class="nav-item ">
+                  <a class="nav-link" href="#contact me">Contact Me</a>
+                  
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+      <section id="Home">
+      <div class="card">
+        <img src="https://www.clubmahindra.com/blog/media/section_images/5reasontot-b6c21cc423910c8.webp" class="card-img" alt="...">
+        <div class="card-img-overlay">
+          <h2 class="card-title"><span class="emp"> Empowering you to <br>step outside your <br> comfort  zone.</span></h1>
+          
+        </div>
+      </div>
+      </section>
+      
+        <div class="d1 col-12 mt-3 ">
+          <h1 class="where">Where <br><span class="to">to</span><br><span class="next"> Next?</span></h1>
+        </div>
+        <section id="Destination">
+          <div class="heading"><h1><u>Destinations</u></h1></div>
+        <div class="wrapImg">
+          <div class="img1">
+            <h1 class="content">Paris,France</h1>
+        </div>
+          <div class="img2">
+              <h1 class="content"> Palermo, Italy</h1>
+          </div>
+          <div class="img3">
+            <h1 class="content">Agra,India</h1>
+        </div>
+        <div class="img4">
+          <h1 class="content">Kathmandu,Nepal</h1>
+      </div>
+      <div class="img5">
+        <h1 class="content">Beijing,China</h1>
+    </div>
+        </div>
+      </section>
+      <section id="latest ">
+        <div class="mt-5">
+        <div class="heading"><h1><u>Latest Trips</u></h1></div>
+        </div>
+        <div class="exp mt-5">
+          <div class="image1">
+            <h1 class="name">New York</h1>
+          </div>
+          <div class="image2">
+            <h1 class="name">Kerala</h1>
+
+          </div>
+          <div class="image3">
+            <h1 class="name">Turkey</h1>
+
+          </div>
+          <div class="image4">
+            <h1 class="name">Dubai</h1>
+
+          </div>
+          <div class="image5">
+            <h1 class="name">Barcelona</h1>
+
+          </div>
+          <div class="image6">
+            <h1 class="name">Turin</h1>
+
+          </div>
+          
+        </div>
+      
+
+      </section>
+      <section id="about">
+<h1 class="heading">About Me</h1>
+<div class="pic">
+  <img src="http://www.oneikathetraveller.com/wp-content/uploads/2022/01/Oneika-Raymond-Headshot-horizontal-1.jpeg" alt="">
+
+<div class="intro">
+<span class="one">Hi I'm Oneika</span>
+
+<p>I’m an Emmy Award-winning journalist, perpetual explorer, & on-camera host for Travel Channel and NBC who’s traveled to 120 countries and paid rent in 7.
+
+ <p> I’m also an “experience connoisseur” who has, among other things, bungee-jumped over the Zambezi River, fished for piranhas in the Amazon, and climbed active volcanoes in Guatemala, Indonesia, and Ecuador.</p>
+</div>
+</div>
+ </section>
+      <section id="" contact me">
+<h1 class="heading mt-5">Contact Me</h1>
+      </section>
+      <footer class="bg-light text-center text-white">
+        <!-- Grid container -->
+        <div class="container p-4 pb-0">
+          <!-- Section: Social media -->
+          <section class="mb-4">
+            <!-- Facebook -->
+            <a
+              class="btn text-white btn-floating m-1"
+              style="background-color: #3b5998;"
+              href="#!"
+              role="button"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+      
+            <!-- Twitter -->
+            <a
+              class="btn text-white btn-floating m-1"
+              style="background-color: #55acee;"
+              href="#!"
+              role="button"
+              ><i class="fab fa-twitter"></i
+            ></a>
+      
+            <!-- Google -->
+            <a
+              class="btn text-white btn-floating m-1"
+              style="background-color: #dd4b39;"
+              href="#!"
+              role="button"
+              ><i class="fab fa-google"></i
+            ></a>
+      
+            <!-- Instagram -->
+            <a
+              class="btn text-white btn-floating m-1"
+              style="background-color: #ac2bac;"
+              href="#!"
+              role="button"
+              ><i class="fab fa-instagram"></i
+            ></a>
+      
+            <!-- Linkedin -->
+            <a
+              class="btn text-white btn-floating m-1"
+              style="background-color: #0082ca;"
+              href="#!"
+              role="button"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+            <!-- Github -->
+            <a
+              class="btn text-white btn-floating m-1"
+              style="background-color: #333333;"
+              href="#!"
+              role="button"
+              ><i class="fab fa-github"></i
+            ></a>
+          </section>
+          <!-- Section: Social media -->
+        </div>
+        <!-- Grid container -->
+      
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+          © 2020 Copyright:
+          <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+    
+      
+</body>
+</html>
